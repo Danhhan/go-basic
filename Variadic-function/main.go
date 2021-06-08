@@ -13,7 +13,7 @@ func addItem(item int, list ...int) {
 }
 func main() {
 	addItem(1, 100,200,300,400)
-	var list = []int {1,2,3,4}
+	var list = []int {1,2,3,4}   
 	addItem(100, list...)
 	change(list...);
 	fmt.Println(list)
